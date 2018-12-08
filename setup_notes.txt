@@ -7,3 +7,13 @@ npm install --save express body-parser mongoose
 git init
 git add .
 git commit -m 'first commit'
+
+#create directories for Models, Controllers, Views and Routes
+
+mkdir controllers
+mkdir models
+mkdir routes
+mkdir views
+
+#use nodemon to manage auto updating server when files edited.
+nodemon index.js
